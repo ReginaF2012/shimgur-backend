@@ -16,6 +16,12 @@ gem 'puma', '~> 4.1'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+# jwt auth
+gem 'jwt'
+
+
+gem 'active_model_serializers'
+
 # for active storage with amazon sw3
 gem "aws-sdk-s3", require: false
 
@@ -26,6 +32,7 @@ gem "aws-sdk-s3", require: false
 gem 'bootsnap', '>= 1.4.2', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
+# gem 'rack-cors'
 
 
 group :development, :test do
